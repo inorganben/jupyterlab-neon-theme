@@ -1,0 +1,65 @@
+/* Custom*/
+
+/* Left and top tool bar*/
+.jp-SideBar.p-TabBar, #jp-top-panel,
+.jp-LabShell[data-shell-mode='single-document'] #jp-menu-panel {
+  background-color: rgba(34, 33, 54, 0.65);  /* last value is the transparency */
+}
+
+/* Background */
+
+/* Neon NIght Style */
+.jp-LabShell {
+  background: linear-gradient(to bottom right, rgba(0, 255, 255, 0.25), 
+   rgba(180, 0, 255, 0.25), rgba(140, 0, 255, 0.25), rgba(255, 0, 100, 0.25));
+}
+
+.lm-DockPanel-tabBar .lm-TabBar-tab.jp-mod-current:before {
+  background: linear-gradient(to right,
+  #00000000, #3765e7, #a044ca, #ca44a9, #00000000)
+}
+
+
+ /* Neon Sunset Style */
+ /* .jp-LabShell {
+  background: linear-gradient(to bottom right, rgb(118 53 222 / 0.5),
+  rgb(222 53 124 / 55%), rgb(244 218 36 / 0.6));
+}
+
+.lm-DockPanel-tabBar .lm-TabBar-tab.jp-mod-current:before{
+  background: linear-gradient(to right,
+  #00000000, #7334cb, #f36f8f, #ac7453, #00000000);
+} */
+
+
+/* or use an image as the background */
+/* .jp-LabShell {
+  background: url('./images/background.jpg') center/cover no-repeat;
+}
+
+.lm-DockPanel-tabBar .lm-TabBar-tab.jp-mod-current:before {
+  background: linear-gradient(to right,
+  #00000000, #3765e7, #a044ca, #ca44a9, #00000000)
+} */
+
+
+/* Fonts*/
+/* Code font */
+:root {
+  /* Code font */
+  --jp-code-font-family: Monaco, 'Source Code Pro', monospace;
+/* Prompt number of cell */
+  --jp-cell-prompt-font-family:  'Vibur';
+}
+
+/* Opened files tab bar */
+.lm-DockPanel-tabBar .lm-TabBar-tab, h1 {
+  font-family: 'Neon Bugler';
+  font-size: 14px;
+}
+
+/* Search tool */
+.jp-DocumentSearch-overlay *,  .filter .bp3-input {
+  font-family: 'Neon Bugler';
+  font-size: 15px;
+}
