@@ -21,9 +21,9 @@ pip install *.whl
 
 ## Related Projects
 
-- [jupyterlab-miami-nights](https://pypi.org/project/jupyterlab-miami-nights/) - Another neon/cyberpunk theme for JupyterLab
+- [jupyterlab-miami-nights](https://github.com/timkpaine/jupyterlab_miami_nights) - Another neon/cyberpunk theme for JupyterLab
 
-## 中文说明
+
 
 For more screenshots and documentation, please visit [yeebc/jupyterlab-neon-theme](https://github.com/yeebc/jupyterlab-neon-theme).
 
