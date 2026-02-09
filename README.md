@@ -19,7 +19,11 @@ Download the `.whl` file from [GitHub Releases](https://github.com/inorganben/ju
 pip install *.whl
 ```
 
-## Original Project
+## Related Projects
+
+- [jupyterlab-miami-nights](https://pypi.org/project/jupyterlab-miami-nights/) - Another neon/cyberpunk theme for JupyterLab
+
+## 中文说明
 
 For more screenshots and documentation, please visit [yeebc/jupyterlab-neon-theme](https://github.com/yeebc/jupyterlab-neon-theme).
 
